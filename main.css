@@ -1,0 +1,113 @@
+*{
+    /* padding: 0 */
+}
+body{
+ background-color: black;
+ color: whitesmoke;
+}
+
+header .container{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+ background-color: black;
+    position: sticky;
+
+}
+
+
+
+
+header .logo{
+    margin-left: 5px;
+    font-family: 'Segoe UI',  Verdana, sans-serif;
+    color: rgb(252, 2, 2);
+    /* text-shadow: ; */
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-right: 18px;
+    
+    
+    
+}
+
+header nav a{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+ 
+}
+
+
+header nav a:hover{
+    color: red;
+    font-weight: bolder;
+}
+
+.film-principle{
+  font-size: 16px;  
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) 100%),url(../img/bg.jpg);
+  object-fit: cover;
+ height: 100vh;
+ /* background-position: 100%; */
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:flex-start;
+}
+
+
+
+.film-principle .description{
+    margin-top: 10px;
+    margin-bottom:40px ;
+    font-size: 20px;
+}
+.film-principle .titile{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+
+}
+
+.watch-now{
+    background-color: black;
+    border: none;
+    color: wheat;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 38px;
+
+}
+
+.watch-now:hover{
+    background-color: dodgerblue;
+    color: black;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.film-principle .container{
+    width: 70%;
+}
+
+
+.box-film{
+    height: 40vh;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carousel-films{
+    margin-top: 5px;
+}
